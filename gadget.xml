@@ -1,101 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-  <ModulePrefs description="Get info on what your council is doing from OpenlyLocal.com :: making Local Government more transparent" author_email="countculture@gmail.com" author_link="http://OpenlyLocal.com" author="CountCulture" singleton="false" title="UK Council info :: OpenlyLocal" directory_title="UK Council info :: OpenlyLocal" scrolling="true" author_affiliation="OpenlyLocal.com" height="250">
+  <ModulePrefs directory_title="UK Council info :: OpenlyLocal" description="Get info on what your council is doing from OpenlyLocal.com :: making Local Government more transparent" scrolling="true" singleton="false" author_affiliation="OpenlyLocal.com" author="CountCulture" author_email="countculture@gmail.com" title="UK Council info :: OpenlyLocal" author_link="http://OpenlyLocal.com" height="250">
     <Require feature="settitle"/>
     <Require feature="tabs"/>
     <Require feature="setprefs"/>
     <Require feature="opensocial-0.9"/>
     <Preload href="http://openlylocal.com/councils/__UP_council__.json"/>
   </ModulePrefs>
-  <UserPref display_name="Council" required="true" name="council" datatype="enum">
-    <EnumValue display_value="Aberdeen City Council" value="37"/>
-    <EnumValue display_value="Allerdale Borough Council" value="38"/>
-    <EnumValue display_value="Basildon District Council" value="40"/>
-    <EnumValue display_value="Bedford Borough Council" value="144"/>
-    <EnumValue display_value="Belfast City Council" value="41"/>
-    <EnumValue display_value="Birmingham City Council" value="167"/>
-    <EnumValue display_value="Blaby District Council" value="42"/>
-    <EnumValue display_value="Blackburn with Darwen Borough Council" value="112"/>
-    <EnumValue display_value="Bolton Metropolitan Borough Council" value="113"/>
-    <EnumValue display_value="Bracknell Forest Council" value="43"/>
-    <EnumValue display_value="Breckland District Council" value="44"/>
-    <EnumValue display_value="Brighton and Hove City Council" value="45"/>
-    <EnumValue display_value="Bristol City Council" value="149"/>
-    <EnumValue display_value="Bromsgrove District Council" value="46"/>
-    <EnumValue display_value="Buckinghamshire County Council" value="47"/>
-    <EnumValue display_value="Canterbury City Council" value="48"/>
-    <EnumValue display_value="Central Bedfordshire Council" value="145"/>
-    <EnumValue display_value="Cheltenham Borough Council" value="152"/>
-    <EnumValue display_value="Cheshire East" value="146"/>
-    <EnumValue display_value="Cheshire West and Chester" value="147"/>
-    <EnumValue display_value="City of Westminster" value="36"/>
-    <EnumValue display_value="City of York" value="111"/>
-    <EnumValue display_value="Cornwall Council" value="53"/>
-    <EnumValue display_value="Dartford Borough Council" value="54"/>
-    <EnumValue display_value="Derby City Council" value="117"/>
-    <EnumValue display_value="Durham County Council" value="168"/>
-    <EnumValue display_value="East Lindsey District Council" value="56"/>
-    <EnumValue display_value="Eastleigh Borough Council" value="55"/>
-    <EnumValue display_value="Exeter City" value="59"/>
-    <EnumValue display_value="Gloucester City Council" value="61"/>
-    <EnumValue display_value="Halton Borough Council" value="63"/>
-    <EnumValue display_value="Herefordshire Council" value="64"/>
-    <EnumValue display_value="Isle of Wight Council" value="298"/>
-    <EnumValue display_value="Kent County Council" value="68"/>
-    <EnumValue display_value="Lancaster City Council" value="70"/>
-    <EnumValue display_value="Leeds City Council" value="71"/>
-    <EnumValue display_value="Leicester City Council" value="303"/>
-    <EnumValue display_value="Leicestershire County Council" value="72"/>
-    <EnumValue display_value="Lichfield District Council" value="156"/>
-    <EnumValue display_value="Lincoln City Council" value="306"/>
-    <EnumValue display_value="Liverpool City Council" value="73"/>
-    <EnumValue display_value="London Borough of Barking &amp; Dagenham" value="19"/>
-    <EnumValue display_value="London Borough of Barnet" value="20"/>
-    <EnumValue display_value="London Borough of Bexley" value="5"/>
-    <EnumValue display_value="London Borough of Brent" value="21"/>
-    <EnumValue display_value="London Borough of Bromley" value="22"/>
-    <EnumValue display_value="London Borough of Croydon" value="25"/>
-    <EnumValue display_value="London Borough of Enfield" value="6"/>
-    <EnumValue display_value="London Borough of Greenwich" value="28"/>
-    <EnumValue display_value="London Borough of Hackney" value="7"/>
-    <EnumValue display_value="London Borough of Haringey" value="8"/>
-    <EnumValue display_value="London Borough of Harrow" value="9"/>
-    <EnumValue display_value="London Borough of Hillingdon" value="31"/>
-    <EnumValue display_value="London Borough of Hounslow" value="10"/>
-    <EnumValue display_value="London Borough of Islington" value="32"/>
-    <EnumValue display_value="London Borough of Lambeth" value="12"/>
-    <EnumValue display_value="London Borough of Merton" value="1"/>
-    <EnumValue display_value="London Borough of Newham" value="13"/>
-    <EnumValue display_value="London Borough of Redbridge" value="14"/>
-    <EnumValue display_value="London Borough of Richmond upon Thames" value="35"/>
-    <EnumValue display_value="London Borough of Southwark" value="15"/>
-    <EnumValue display_value="London Borough of Sutton" value="4"/>
-    <EnumValue display_value="London Borough of Tower Hamlets" value="16"/>
-    <EnumValue display_value="London Borough of Waltham Forest" value="17"/>
-    <EnumValue display_value="London Borough of Wandsworth" value="2"/>
-    <EnumValue display_value="Maidstone Borough Council" value="74"/>
-    <EnumValue display_value="Newcastle upon Tyne City Council" value="77"/>
-    <EnumValue display_value="Northamptonshire County Council" value="126"/>
-    <EnumValue display_value="Royal Borough of Kingston upon Thames" value="11"/>
-    <EnumValue display_value="Salford City Council" value="369"/>
-    <EnumValue display_value="Sefton Metropolitan Borough Council" value="89"/>
-    <EnumValue display_value="Sevenoaks District Council" value="130"/>
-    <EnumValue display_value="Slough Borough Council" value="90"/>
-    <EnumValue display_value="St Albans City &amp; District Council" value="98"/>
-    <EnumValue display_value="Stoke-on-Trent City Council" value="96"/>
-    <EnumValue display_value="Stratford-on-Avon" value="97"/>
-    <EnumValue display_value="Sunderland City Council" value="134"/>
-    <EnumValue display_value="West Lothian Council" value="177"/>
-    <EnumValue display_value="Wirral Metropolitan Borough" value="108"/>
+  <UserPref display_name="Council" datatype="enum" name="council" required="true">
+    <EnumValue value="37" display_value="Aberdeen City Council"/>
+    <EnumValue value="38" display_value="Allerdale Borough Council"/>
+    <EnumValue value="40" display_value="Basildon District Council"/>
+    <EnumValue value="144" display_value="Bedford Borough Council"/>
+    <EnumValue value="41" display_value="Belfast City Council"/>
+    <EnumValue value="167" display_value="Birmingham City Council"/>
+    <EnumValue value="42" display_value="Blaby District Council"/>
+    <EnumValue value="112" display_value="Blackburn with Darwen Borough Council"/>
+    <EnumValue value="113" display_value="Bolton Metropolitan Borough Council"/>
+    <EnumValue value="43" display_value="Bracknell Forest Council"/>
+    <EnumValue value="44" display_value="Breckland District Council"/>
+    <EnumValue value="45" display_value="Brighton and Hove City Council"/>
+    <EnumValue value="149" display_value="Bristol City Council"/>
+    <EnumValue value="46" display_value="Bromsgrove District Council"/>
+    <EnumValue value="47" display_value="Buckinghamshire County Council"/>
+    <EnumValue value="48" display_value="Canterbury City Council"/>
+    <EnumValue value="145" display_value="Central Bedfordshire Council"/>
+    <EnumValue value="152" display_value="Cheltenham Borough Council"/>
+    <EnumValue value="146" display_value="Cheshire East"/>
+    <EnumValue value="147" display_value="Cheshire West and Chester"/>
+    <EnumValue value="36" display_value="City of Westminster"/>
+    <EnumValue value="111" display_value="City of York"/>
+    <EnumValue value="53" display_value="Cornwall Council"/>
+    <EnumValue value="54" display_value="Dartford Borough Council"/>
+    <EnumValue value="117" display_value="Derby City Council"/>
+    <EnumValue value="168" display_value="Durham County Council"/>
+    <EnumValue value="56" display_value="East Lindsey District Council"/>
+    <EnumValue value="55" display_value="Eastleigh Borough Council"/>
+    <EnumValue value="59" display_value="Exeter City"/>
+    <EnumValue value="61" display_value="Gloucester City Council"/>
+    <EnumValue value="63" display_value="Halton Borough Council"/>
+    <EnumValue value="64" display_value="Herefordshire Council"/>
+    <EnumValue value="66" display_value="Huntingdonshire District Council"/>
+    <EnumValue value="298" display_value="Isle of Wight Council"/>
+    <EnumValue value="68" display_value="Kent County Council"/>
+    <EnumValue value="69" display_value="Knowsley Metropolitan Borough"/>
+    <EnumValue value="70" display_value="Lancaster City Council"/>
+    <EnumValue value="71" display_value="Leeds City Council"/>
+    <EnumValue value="303" display_value="Leicester City Council"/>
+    <EnumValue value="72" display_value="Leicestershire County Council"/>
+    <EnumValue value="156" display_value="Lichfield District Council"/>
+    <EnumValue value="306" display_value="Lincoln City Council"/>
+    <EnumValue value="73" display_value="Liverpool City Council"/>
+    <EnumValue value="19" display_value="London Borough of Barking &amp; Dagenham"/>
+    <EnumValue value="20" display_value="London Borough of Barnet"/>
+    <EnumValue value="5" display_value="London Borough of Bexley"/>
+    <EnumValue value="21" display_value="London Borough of Brent"/>
+    <EnumValue value="22" display_value="London Borough of Bromley"/>
+    <EnumValue value="25" display_value="London Borough of Croydon"/>
+    <EnumValue value="6" display_value="London Borough of Enfield"/>
+    <EnumValue value="28" display_value="London Borough of Greenwich"/>
+    <EnumValue value="7" display_value="London Borough of Hackney"/>
+    <EnumValue value="8" display_value="London Borough of Haringey"/>
+    <EnumValue value="9" display_value="London Borough of Harrow"/>
+    <EnumValue value="31" display_value="London Borough of Hillingdon"/>
+    <EnumValue value="10" display_value="London Borough of Hounslow"/>
+    <EnumValue value="32" display_value="London Borough of Islington"/>
+    <EnumValue value="12" display_value="London Borough of Lambeth"/>
+    <EnumValue value="1" display_value="London Borough of Merton"/>
+    <EnumValue value="13" display_value="London Borough of Newham"/>
+    <EnumValue value="14" display_value="London Borough of Redbridge"/>
+    <EnumValue value="35" display_value="London Borough of Richmond upon Thames"/>
+    <EnumValue value="15" display_value="London Borough of Southwark"/>
+    <EnumValue value="4" display_value="London Borough of Sutton"/>
+    <EnumValue value="16" display_value="London Borough of Tower Hamlets"/>
+    <EnumValue value="17" display_value="London Borough of Waltham Forest"/>
+    <EnumValue value="2" display_value="London Borough of Wandsworth"/>
+    <EnumValue value="74" display_value="Maidstone Borough Council"/>
+    <EnumValue value="157" display_value="Manchester City Council"/>
+    <EnumValue value="76" display_value="Merthyr Tydfil Council"/>
+    <EnumValue value="77" display_value="Newcastle upon Tyne City Council"/>
+    <EnumValue value="126" display_value="Northamptonshire County Council"/>
+    <EnumValue value="85" display_value="Preston Borough Council"/>
+    <EnumValue value="11" display_value="Royal Borough of Kingston upon Thames"/>
+    <EnumValue value="369" display_value="Salford City Council"/>
+    <EnumValue value="89" display_value="Sefton Metropolitan Borough Council"/>
+    <EnumValue value="130" display_value="Sevenoaks District Council"/>
+    <EnumValue value="90" display_value="Slough Borough Council"/>
+    <EnumValue value="98" display_value="St Albans City &amp; District Council"/>
+    <EnumValue value="99" display_value="St Helens Borough Council"/>
+    <EnumValue value="95" display_value="Staffordshire County Council"/>
+    <EnumValue value="96" display_value="Stoke-on-Trent City Council"/>
+    <EnumValue value="97" display_value="Stratford-on-Avon"/>
+    <EnumValue value="134" display_value="Sunderland City Council"/>
+    <EnumValue value="102" display_value="Thanet District Council"/>
+    <EnumValue value="177" display_value="West Lothian Council"/>
+    <EnumValue value="108" display_value="Wirral Metropolitan Borough"/>
+    <EnumValue value="143" display_value="Wolverhampton City Council"/>
+    <EnumValue value="109" display_value="Worcester City Council"/>
+    <EnumValue value="110" display_value="Wychavon District Council"/>
   </UserPref>
-  <UserPref name="selectedTab" datatype="hidden"/>
+  <UserPref datatype="hidden" name="selectedTab"/>
   <Content type="html">
     <![CDATA[
 <style> 
   .collection { font-size: 70%;  padding: 5px; }
   h3 { border-bottom: 1px solid #676767; margin: 0.5em 0 0 0;}
-  ul {padding: 10px; margin-top: 0.5em;}
-  #footer { padding 5px; background-color: #eee; border-top: 1px solid #676767;}
+  ul {padding: 10px; margin-top: 0.5em; margin: 0.5em 0.25em;}
+  #footer { padding 5px; background-color: #eee; border-top: 1px solid #676767; margin-top: 1em;}
   a {text-decoration: none; color: #003366;}
   a.official_page {color: #515151; background: transparent url(http://openlylocal.com/images/ext_link.gif) no-repeat scroll left center; padding-left:10px;}
   a:hover {text-decoration: underline; color: black;}
@@ -112,13 +123,13 @@
     var councilId = prefs.getString("council");
     var params = {};
     params[gadgets.io.RequestParameters.CONTENT_TYPE] = gadgets.io.ContentType.JSON;
+    params[gadgets.io.RequestParameters.METHOD] = gadgets.io.MethodType.GET;
     // This URL returns a JSON-encoded string that represents a JavaScript object
     var url = "http://openlylocal.com/councils/" + councilId + ".json";
     gadgets.io.makeRequest(url, insertCouncilData, params);
   };
 
-  function listItemFor(obj)
-  {
+  function listItemFor(obj) {
     var li = "<li>";
     li += obj.formatted_date || "";
     li += " <a href='" + (obj.openlylocal_url || obj.url) + "'>";
@@ -128,20 +139,34 @@
     return li;
   }
   
+  function listAll(coll) { 
+    if(coll.length && coll.length > 0){
+      var listResult = "<ul>"
+      for (var i = 0; i < coll.length; i++) {
+        var li = coll[i];
+        listResult += listItemFor(li);
+      }
+      listResult += "</ul>";
+      return listResult;
+    }
+    else { return '';}
+  }
+
   function insertCouncilData(obj)
   { 
     var council = obj.data.council;
     var partyBreakdown = [];
+    var partyBreakdownObj ={};
     var footer = "</div><div id='footer'>More details and info at <a href='http://openlylocal.com'>OpenlyLocal</a> :: Making local government more transparent</div>";
     gadgets.window.setTitle(council.name + " :: OpenlyLocal");
     
     for (var i = 0; i < council.members.length; i++) {
       var p = council.members[i].party;
-      partyBreakdown[p] === undefined ? partyBreakdown[p] = 1 : partyBreakdown[p] +=1;
+      partyBreakdownObj[p] === undefined ? partyBreakdownObj[p] = 1 : partyBreakdownObj[p] +=1;
     }
     // turn in to proper array
-    for (var party in partyBreakdown) {
-      if (partyBreakdown.hasOwnProperty(party)) {partyBreakdown.push([partyBreakdown[party], party]);}
+    for (var party in partyBreakdownObj) {
+      if (partyBreakdownObj.hasOwnProperty(party)) {partyBreakdown.push([partyBreakdownObj[party], party]);}
     }
     partyBreakdown = partyBreakdown.sort(function (a,b) {return b[0] - a[0]}); //sort with largest first
     var memberHtml = "";
@@ -157,14 +182,10 @@
     }
     summaryHtml += ")</div>";
     
-    var recentActivity = council.recent_activity
+    var recentActivity = council.recent_activity;
     for (var coll in recentActivity) {
       if (recentActivity.hasOwnProperty(coll)) {
-        summaryHtml += "<h3>" + recentActivity[coll].length + " new/updated " + coll + "</h3><ul>";
-        for (var i = 0; i < recentActivity[coll].length; i++) {
-          summaryHtml += listItemFor(recentActivity[coll][i]);
-        }
-        summaryHtml += "</ul>";
+        summaryHtml += "<h3>" + recentActivity[coll].length + " new/updated " + coll + "</h3>" + listAll(recentActivity[coll]);
       }
     }
 
@@ -172,19 +193,20 @@
       var m = council.members[i];
       memberHtml += listItemFor(m);
     }    
-   
+       
     for (var i = 0; i < council.committees.length; i++) {
       var c = council.committees[i];
       committeeHtml += listItemFor(c);
     } 
-
+    
     for (var i = 0; i < council.meetings.length; i++) {
       var m = council.meetings[i];
       meetingHtml += listItemFor(m);
     } 
-    document.getElementById('members').innerHTML = "<ul>" + memberHtml + "</ul>" + footer;
-    document.getElementById('committees').innerHTML = "<ul>" + committeeHtml + "</ul>" + footer;
-    document.getElementById('meetings').innerHTML = "<ul>" + meetingHtml + "</ul>" + footer;
+
+    document.getElementById('members').innerHTML = listAll(council.members) + footer;
+    document.getElementById('committees').innerHTML = listAll(council.committees) + footer;
+    document.getElementById('meetings').innerHTML = listAll(council.meetings) + footer;
     document.getElementById('summary').innerHTML = summaryHtml + footer;
     
     tabs.addTab("Summary", {
