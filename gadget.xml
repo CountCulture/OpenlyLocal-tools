@@ -1,3 +1,8 @@
+<!-- Unless otherwise stated in particular files or directories, this
+software is free software; you can redistribute it and/or modify it
+under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. -->
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
   <ModulePrefs directory_title="UK Council info :: OpenlyLocal" description="Get info on what your council is doing from OpenlyLocal.com :: making Local Government more transparent" scrolling="true" singleton="false" author_affiliation="OpenlyLocal.com" author="CountCulture" author_email="countculture@gmail.com" title="UK Council info :: OpenlyLocal" author_link="http://OpenlyLocal.com" height="250">
